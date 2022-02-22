@@ -1,0 +1,620 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(19, 19, 19, 0);
+}
+
+li,
+a,
+button {
+  font-weight: 400;
+  font-size: 16px;
+  color: #edf0f1;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25px 6%;
+  background-color: #131313;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.logo img {
+  max-height: 50px;
+  width: auto;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #04f4f4;
+}
+button {
+  padding: 6px 25px;
+  background-color: #04f4f4;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: #131313;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 6%;
+  background-color: #131313;
+}
+
+.hero .profilepic img {
+  max-height: 350px;
+  width: auto;
+  float: right;
+  align-content: flex-end;
+  margin-top: 150px;
+  margin-bottom: 120px;
+}
+
+h1,
+h5,
+p {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  display: flex;
+  margin-left: auto;
+}
+
+.hero .divheroic h1 {
+  font-weight: 700;
+  font-size: 70px;
+  padding-top: 180px;
+  margin-left: auto;
+}
+
+.hero .divheroic h5 {
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: auto;
+}
+
+.hero .divheroic p {
+  font-size: 16px;
+  padding-top: 10px;
+  margin-bottom: 70px;
+  max-inline-size: 450px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.aboutmeplaceholder {
+  background-color: rgb(51, 51, 51);
+  height: 720px;
+  width: 1450px;
+  transform: skew(0deg, 10deg) translateY(120px);
+  display: flex;
+}
+
+.aboutme {
+  background-color: #131313;
+}
+.aboutmeplaceholder .aboutmetext {
+  background-color: transparent;
+  padding-left: 400px;
+  position: inherit;
+  padding-top: 100px;
+  transform: skew(0deg, -10deg);
+  margin-right: 8%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.aboutmeplaceholder .aboutmetext .lit {
+  color: turquoise;
+}
+
+.aboutmetext h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  background-color: transparent;
+}
+.aboutmetext p {
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.memojicase {
+  transform: skew(0deg, -10deg);
+  background-color: transparent;
+  padding-left: 125px;
+  padding-top: 120px;
+  width: 500px;
+  height: 100px;
+}
+
+.memojivibes {
+  padding-top: 20px;
+  background-color: transparent;
+}
+.memojiwork {
+  padding-left: 190px;
+  padding-top: 40px;
+  background-color: transparent;
+}
+.memojiplay {
+  padding-left: 380px;
+  background-color: transparent;
+  padding-top: 40px;
+}
+
+.finalrect {
+  background-color: rgb(19, 19, 19, 0);
+  width: 1450px;
+  height: 290px;
+}
+
+.portfolioprojs {
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 6%;
+  height: 752px;
+  background-color: #131313;
+}
+
+.heading .proj {
+  color: turquoise;
+  text-align: center;
+  justify-content: center;
+}
+
+.heading h4 {
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.cardcontainer {
+  display: flex;
+  align-content: center;
+}
+
+.card1 {
+  width: 23.5rem;
+  height: 400px;
+  background: rgb(242, 242, 242);
+  margin-top: 60px;
+  border-radius: 4px;
+}
+
+.card1 img {
+  align-content: center;
+  margin: 6px 6px;
+}
+
+.card-title {
+  color: #454949;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 30px;
+  margin-left: 20px;
+}
+
+.card-text {
+  font-family: "Lato", sans-serif;
+  max-inline-size: 320px;
+  padding-top: 10px;
+  margin-left: 20px;
+  text-align: justify;
+  text-emphasis-color: none;
+  color: #454949;
+}
+
+.btn-exp {
+  border: 2px solid;
+  background-color: #131313;
+  border-color: #04f4f4;
+  color: #04f4f4;
+  cursor: pointer;
+  border-radius: 4px;
+  border-width: 1px;
+  margin-top: 520px;
+  margin-left: -270px;
+}
+
+.btn-exp:hover {
+  background-color: #04f4f4;
+  color: rgb(0, 0, 0);
+}
+
+.card2 {
+  width: 23.5rem;
+  height: 400px;
+  background: rgb(242, 242, 242);
+  margin-top: 60px;
+  margin-left: 60px;
+  border-radius: 4px;
+}
+
+.card2 img {
+  align-content: center;
+  margin: 6px 6px;
+}
+
+.card-title2 {
+  color: #454949;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 30px;
+  margin-left: 20px;
+}
+
+.card-text2 {
+  font-family: "Lato", sans-serif;
+  max-inline-size: 320px;
+  padding-top: 10px;
+  margin-left: 20px;
+  text-align: justify;
+  text-emphasis-color: none;
+  color: #454949;
+}
+
+.btn-plz {
+  border: 2px solid;
+  background-color: #131313;
+  border-color: #04f4f4;
+  color: #04f4f4;
+  cursor: pointer;
+  border-radius: 4px;
+  border-width: 1px;
+  margin-top: 520px;
+  margin-left: -270px;
+}
+
+.btn-plz:hover {
+  background-color: #04f4f4;
+  color: rgb(0, 0, 0);
+}
+
+.card3 {
+  width: 23.5rem;
+  height: 400px;
+  background: rgb(242, 242, 242);
+  margin-top: 60px;
+  margin-left: 60px;
+  border-radius: 4px;
+}
+
+.card3 img {
+  align-content: center;
+  margin: 6px 6px;
+}
+
+.card-title3 {
+  color: #454949;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 30px;
+  margin-left: 20px;
+}
+
+.card-text3 {
+  font-family: "Lato", sans-serif;
+  max-inline-size: 320px;
+  padding-top: 10px;
+  margin-left: 20px;
+  text-align: justify;
+  text-emphasis-color: none;
+  color: #454949;
+}
+
+.btn-Insp {
+  border: 2px solid;
+  background-color: #131313;
+  border-color: #04f4f4;
+  color: #04f4f4;
+  cursor: pointer;
+  border-radius: 4px;
+  border-width: 1px;
+  margin-top: 520px;
+  margin-left: -270px;
+}
+
+.btn-Insp:hover {
+  background-color: #04f4f4;
+  color: rgb(0, 0, 0);
+}
+
+.workflow {
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 6%;
+
+  height: 592px;
+  background-color: #131313;
+}
+
+.workflowheader .work {
+  color: #04f4f4;
+  text-align: center;
+  justify-content: center;
+}
+
+.workflowheader h4 {
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.processcardcontainer {
+  display: flex;
+  align-content: center;
+}
+
+.scard1 {
+  width: 215px;
+  height: 235px;
+  background: rgb(51, 51, 51);
+  margin-top: 60px;
+  margin-left: 60px;
+  border-radius: 12px;
+  align-content: center;
+}
+
+.scard1 img {
+  align-content: center;
+  width: 100px;
+  margin-left: 65px;
+  margin-top: 12px;
+}
+
+.scard-title1 {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.scard-text1 {
+  font-family: "Lato", sans-serif;
+  max-inline-size: 180px;
+  padding-top: 10px;
+  margin-left: 32px;
+  text-align: justify;
+  text-emphasis-color: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.scard2 {
+  width: 215px;
+  height: 235px;
+  background: rgb(51, 51, 51);
+  margin-top: 60px;
+  margin-left: 40px;
+  border-radius: 12px;
+  align-content: center;
+}
+
+.scard2 img {
+  align-content: center;
+  width: 100px;
+  margin-left: 65px;
+  margin-top: 12px;
+}
+
+.scard-title2 {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.scard-text2 {
+  font-family: "Lato", sans-serif;
+  max-inline-size: 180px;
+  padding-top: 10px;
+  margin-left: 32px;
+  text-align: justify;
+  text-emphasis-color: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.scard3 {
+  width: 215px;
+  height: 235px;
+  background: rgb(51, 51, 51);
+  margin-top: 60px;
+  margin-left: 40px;
+  border-radius: 12px;
+  align-content: center;
+}
+
+.scard3 img {
+  align-content: center;
+  width: 100px;
+  margin-left: 65px;
+  margin-top: 15px;
+}
+
+.scard-title3 {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.scard-text3 {
+  font-family: "Lato", sans-serif;
+  max-inline-size: 180px;
+  padding-top: 10px;
+  margin-left: 32px;
+  text-align: justify;
+  text-emphasis-color: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.scard4 {
+  width: 215px;
+  height: 235px;
+  background: rgb(51, 51, 51);
+  margin-top: 60px;
+  margin-left: 40px;
+  border-radius: 12px;
+  align-content: center;
+}
+
+.scard4 img {
+  align-content: center;
+  width: 100px;
+  margin-left: 65px;
+  margin-top: 15px;
+}
+
+.scard-title4 {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.scard-text4 {
+  font-family: "Lato", sans-serif;
+  max-inline-size: 180px;
+  padding-top: 10px;
+  margin-left: 32px;
+  text-align: justify;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.whatIdo {
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 6%;
+  height: 720px;
+  background-color: #131313;
+}
+.whatIdoheader p {
+  color: #04f4f4;
+  text-align: center;
+  justify-content: center;
+}
+
+.whatIdoheader h4 {
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.whatIdocards {
+  display: flex;
+}
+
+.docard1 {
+  position: relative;
+}
+
+.docard1 img {
+  margin-top: 60px;
+}
+.docard-body {
+  position: absolute;
+  padding: 22px;
+  top: 12%;
+  color: #ffffff;
+}
+
+.docard-body h3 {
+  font-size: 20px;
+  padding-top: 40px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+}
+
+.docard-body p {
+  padding-top: 35px;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  max-inline-size: 220px;
+  text-align: justify;
+}
+
+.docard2 {
+  position: relative;
+}
+
+.docard2 img {
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.docard-body2 {
+  position: absolute;
+  padding: 22px;
+  top: 12%;
+  margin-left: 18px;
+  color: #ffffff;
+}
+
+.docard-body2 h3 {
+  font-size: 20px;
+  padding-top: 40px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+}
+
+.docard-body2 p {
+  padding-top: 35px;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  max-inline-size: 220px;
+  text-align: justify;
+}
